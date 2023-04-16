@@ -58,6 +58,19 @@ Anytime you want to use git on a project (for tracking and committing of changes
 
 `git checkout <hash number from git log>` - reverts back to old commit
 
+### Stashing
+
+Stashing - Git provides an easy way of stashing uncommitted changes so that we can return to them later, without having to make unnecessary commits. (Mainly done when we are working on a branch, we need to jump to another branch but don't want to commit it yet)
+
+`git stash` - stash changes that we want to come back to later. It takes all uncommitted changes (stage or unstaged) and stashes them, reverting the changes to before. You can stash multiple times. <br>
+`git stash pop` - re-apply to recently stashed changes to your working copy <br>
+`git stash apply <stash-id>` - apply whatever is stashed away without removing it from the stash. <br>
+`git stash list` - view all stashes
+`git stash drop <stash-id>` - drops a particular stash
+`git stash clear` - clear out all stashes
+
+#### Notes
+
 \* Note that git <> is not needed to be typed
 
 Fork allows you to copy someone’s a repo to your own GitHub (takes exact current state); note that it says that it has been forked. This allows you permission to change the repo however you want, push them up (make sure you linked the repo). If you want to props changes, submit a pull request.
