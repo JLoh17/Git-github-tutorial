@@ -84,4 +84,4 @@ Fork allows you to copy someone’s a repo to your own GitHub (takes exact curre
 5. Copy the git remote command from GitHub (the SSH link). Should start with `git remote add origin git@github.com...`
 6. `git remote -v` to check we have correct address and alias
 7. `git push origin master` in git
-8. refresh repo on in GitHub
+8. Refresh repo on in GitHub
