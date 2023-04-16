@@ -12,11 +12,17 @@ Anytime you want to use git on a project (for tracking and committing of changes
 
 ## Git command lines
 
-### Admin lines
+### Linux Command lines
 
 `clear` - clears CLI <br>
-`ls` - list all files in current directory (similar to dir/w) <br>
-`cd <folder>` - change directory
+`ls` - list all files in current directory (similar to dir) <br>
+`pwd` - (present working directory); current file path <br>
+`cd <folder>` - change directory <br>
+`cd ..` - goes back one folder up <br>
+`mkdir <folder name>` - creates folder <br>
+`touch index.html` - creates index.html file
+
+\* Note that some of the command lines are different for windows
 
 ### Starting off
 
